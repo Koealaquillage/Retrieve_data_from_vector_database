@@ -1,3 +1,3 @@
 from secret_key import openai_key
-
-MONGO_URI = "YOUR_MONGO_URI"
+from database_uri import mongodb_uri
+MONGO_URI = mongodb_uri
